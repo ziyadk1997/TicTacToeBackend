@@ -23,6 +23,7 @@ namespace BackendSample.Controllers
             HttpContext.Response.AppendHeader("Access-Control-Allow-Origin", "*");
             HttpContext.Response.AppendHeader("Access-Control-Allow-Headers", "access-control-allow-origin,content-type");
             HttpContext.Response.AppendHeader("Access-Control-Allow-Methods", "GET");
+            int y = 0;
 
             if (t % 2 == 0)
             {
