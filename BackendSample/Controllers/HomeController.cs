@@ -25,6 +25,7 @@ namespace BackendSample.Controllers
             HttpContext.Response.AppendHeader("Access-Control-Allow-Methods", "GET");
             int y = 0;
 			int l = 0;
+            int a = 0;
             if (t % 2 == 0)
             {
                 x[n] = "O";
